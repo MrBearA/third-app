@@ -1,0 +1,119 @@
+.card-container {
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    animation:ease-in-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05); /* Slightly less aggressive scale */
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3); /* Increased shadow intensity on hover */
+}
+
+.image-container {
+    overflow: hidden; /* Ensures image does not overflow container */
+}
+
+.image-container img {
+    width: 100%; /* Make sure image covers the container width */
+    height: 200px;
+    object-fit: cover; /* Maintains aspect ratio while covering the container */
+    display: block; /* Remove any extra space below the image */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+    
+h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+
+.btn button:hover{
+    background:rgba(27, 156, 252, 0.1);
+}
+
+a {
+    text-transform: uppercase;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-more-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.view-more-button:hover {
+    color: #0056b3;
+}
+
+.card-wrapper { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container img {
+    overflow:hidden;
+    height: 200px;
+} 
+
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 3rem;
+    margin-bottom: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.app-container  {
+    background-color: rgb(219, 109, 19); /* Sets a light grey background color */
+  } 
